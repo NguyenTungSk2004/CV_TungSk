@@ -1,0 +1,98 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: inherit;
+}
+
+body{
+    margin:0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.cv-light-grey{
+    background-color: #f1f1f1!important;
+}
+
+.mycv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1;
+    height: 100%;
+    box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.75);
+}
+  
+.mycv-margin{
+    margin-top: 2%!important;
+    margin-bottom: 3%!important;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+
+h2{
+    margin-top:0;
+    color: hsl(36.62deg 100% 58.24%);
+}
+
+.content{
+    font-family: olive;
+    font-style: italic;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+
+/* thanh đo năng lực */
+.container_skills {
+    width: 100%; 
+    background-color: #ddd; 
+    border-radius: 1rem;
+}
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px; 
+    color: white; 
+}
+.html {
+    width: 95%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+} 
+.css{
+    width: 70%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
+.JavaScript{
+    width: 70%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
+.Python{
+    width: 60%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
+.C_Cpp {
+    width: 90%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+} 
+.pascal{
+    width: 85%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
+.sql{
+    width: 95%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
+.mogodb{
+    width: 20%; 
+    background-color: #4CAF50;
+    border-radius: 1rem;
+}
